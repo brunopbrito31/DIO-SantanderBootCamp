@@ -9,59 +9,21 @@ public class BallotCount {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
         int valor = reader.nextInt();
-        separarNotas(valor);
+        System.out.println(valor);
+        separarNotas2(valor);
         reader.close();
     }
-
-    public static void separarNotas(int valor) {
+    public static void separarNotas2(int valor){
         int qt = 0, auxiliar = valor;
-        if (auxiliar >= 100) {
-            qt = auxiliar / 100;
-            System.out.println(qt + " nota(s) de R$ 100,00");
-            auxiliar = auxiliar % 100;
-        } else {
-            System.out.println("0 nota(s) de R$ 100,00");
-        }
-        if (auxiliar >= 50) {
-            qt = auxiliar / 50;
-            System.out.println(qt + " nota(s) de R$ 50,00");
-            auxiliar = auxiliar % 50;
-        } else {
-            System.out.println("0 nota(s) de R$ 50,00");
-        }
-        if (auxiliar >= 20) {
-            qt = auxiliar / 20;
-            System.out.println(qt + " nota(s) de R$ 20,00");
-            auxiliar = auxiliar % 20;
-        } else {
-            System.out.println("0 nota(s) de R$ 20,00");
-        }
-        if (auxiliar >= 10) {
-            qt = auxiliar / 10;
-            System.out.println(qt + " nota(s) de R$ 10,00");
-            auxiliar = auxiliar % 10;
-        } else {
-            System.out.println("0 nota(s) de R$ 10,00");
-        }
-        if (auxiliar >= 5) {
-            qt = auxiliar / 5;
-            System.out.println(qt + " nota(s) de R$ 5,00");
-            auxiliar = auxiliar % 5;
-        } else {
-            System.out.println("0 nota(s) de R$ 5,00");
-        }
-        if (auxiliar >= 2) {
-            qt = auxiliar / 2;
-            System.out.println(qt + " nota(s) de R$ 2,00");
-            auxiliar = auxiliar % 2;
-        } else {
-            System.out.println("0 nota(s) de R$ 2,00");
-        }
-        if (auxiliar >= 1) {
-            qt = auxiliar / 1;
-            System.out.println(qt + " nota(s) de R& 1,00");
-        } else {
-            System.out.println("0 nota(s) de R$ 1,00");
+        int[] notasExistentes = {100,50,20,10,5,1};
+        for(int x: notasExistentes){
+            if (auxiliar >= x) {
+                qt = auxiliar / x;
+                System.out.println(qt + " nota(s) de R$ "+x+",00");
+                auxiliar = auxiliar % x;
+            } else {
+                System.out.println("0 nota(s) de R$ "+x+",00");
+            }
         }
     }
 }
