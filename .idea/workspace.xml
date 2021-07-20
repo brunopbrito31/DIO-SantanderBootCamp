@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ab6757-8686-4d96-95fb-352e95eee781" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DIO-SantanderBootCamp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DIO-SantanderBootCamp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,12 +38,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14305556" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.CircleArea">
+  <component name="RunManager" selected="Application.Average">
+    <configuration name="Average" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="challenges.solvingchallengesinjava.Average" />
+      <module name="DIO-SantanderBootCamp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="challenges.solvingchallengesinjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BallotCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="challenges.numericchallenges.BallotCount" />
       <module name="dioSantanderBootCampJava" />
@@ -56,24 +71,13 @@
       </method>
     </configuration>
     <configuration name="CircleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="challenges.solvingchallengesinjava.CircleArea" />
-      <module name="dioSantanderBootCampJava" />
+      <module name="DIO-SantanderBootCamp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="challenges.solvingchallengesinjava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NumberAnalisys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="challenges.numericchallenges.NumberAnalisys" />
-      <module name="dioSantanderBootCampJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="challenges.numericchallenges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +99,10 @@
       </method>
     </configuration>
     <configuration name="QtPositiveNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="challenges.firststepsinjava.QtPositiveNumbers" />
-      <module name="dioSantanderBootCampJava" />
+      <module name="DIO-SantanderBootCamp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="challenges.firststepsinjava.*" />
@@ -109,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Average" />
+        <item itemvalue="Application.QtPositiveNumbers" />
         <item itemvalue="Application.CircleArea" />
         <item itemvalue="Application.BallotCount" />
         <item itemvalue="Application.Payroll" />
-        <item itemvalue="Application.NumberAnalisys" />
-        <item itemvalue="Application.QtPositiveNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -127,5 +133,10 @@
       <updated>1626698416113</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DIO_SantanderBootCamp$CircleArea.ic" NAME="CircleArea Coverage Results" MODIFIED="1626761476777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>challenges.solvingchallengesinjava.*</FILTER>
+    </SUITE>
   </component>
 </project>
